@@ -53,7 +53,6 @@ export default function RootLayout() {
         />
       </View>
 
-      {/* info View */}
 
       <View style={styles.infoView}>
         <MaterialIcons name="attach-money" size={24} color="green" />
@@ -130,7 +129,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
-    backgroundColor: "#fff",
+    backgroundColor: "#fffr",
     borderRadius: 12,
     shadowColor: "#000",
     shadowOffset: {
